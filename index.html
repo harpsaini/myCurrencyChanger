@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>upgraded project 2</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1> Currency buddy</h1>
+  </header>
+  
+<main>
+
+  <form>
+    
+    <label for="Amount">AMOUNT</label>
+    <input type="number" id="Amount" placeholder="Enter an amount">
+    
+    
+    
+    <label for="fromCurrency">Select your Currency</label>
+    <select  name="fromCurrency" id="fromCurrency">
+      <option value="" disabled selected>Select your option</option>
+      <option value="USD">US Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="GBP">British Pound</option>
+      <option value="EUR">Euro</option>
+      <option value="INR">Indian Ruppee</option>
+      <option value="CNY">Chinese Renminbi</option>
+      <option value="JPY">Japanese Yen </option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+    </select>
+    
+    
+    
+    <label for="toCurrency">Convert to</label>
+    <select name="toCurrency" id="toCurrency">
+      <option value="" disabled selected >Select your option</option>
+      <option value="USD">US Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="GBP">British Pound</option>
+      <option value="EUR">Euro</option>
+      <option value="INR">Indian Ruppee</option>
+      <option value="CNY">Chinese Renminbi</option>
+      <option value="JPY">Japanese Yen </option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+    </select>
+    
+    <button type="submit">Convert</button>
+    
+  </form>  
+  
+  <!-- this is where the results will be displayed  -->
+  
+  
+  <div class="display">
+    <p>Converted Amount : </p>
+  </div>
+</main>
+<footer>
+  <p>Created by Harp Saini at Juno College</p>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./script.js" ></script>
+</body>
+   </html>
+
+    
