@@ -10,38 +10,65 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 
 body{
-  background-color: rgb(226, 207, 226);
+  
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
+ 
+}
+
+h1{
+  text-transform:uppercase;
+  margin-top: 50px;
 }
 
 
-.display{
-  background-color: white;
- }
-
+main{
+  display: inline-block;
+   width: 500px;
+   border: 1px solid lightblue;
+  text-align: center;
  
-h1{
-  color}
+  box-shadow: 2px 2px  lightblue;
+}
 
 form{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+
 }
 
-#fromCurrency{
-  width: 400px;
+
+select{
+  width: 90%;
+  background-color: #DEDEDE;
+  color: #666;
+  margin: 10px;
+
 }
 
-#toCurrenc{
-  width: 400px;
+input{
+  width: 90%;
+  background-color: #DEDEDE;
+  margin: 10px;
+  
 }
 
 button{
   width: 200px;
   background-color: gold;
   
+}
+
+.display
+{
+  background-color: #dedede;
+  height:100px;
+  margin-bottom: 50px;
+  width: 90%;
+  display: inline-block;
 }
