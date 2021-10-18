@@ -7,7 +7,7 @@ access_key = '985c2adb792bfb8fe72dcba3c2a35676';
 //get rates from the api 
 app.getApiRes = (fromCurrency,toCurrency) =>{
   const exchangeRate = $.ajax({
-    url: 'http://data.fixer.io/api/' + endpoint + '?access_key=' + access_key,  
+    url: 'https://data.fixer.io/api/' + endpoint + '?access_key=' + access_key,  
     dataType: 'jsonp',
     success: function(json) {
       let rateofuserFromInput = JSON.stringify(json.rates[fromCurrency]);
